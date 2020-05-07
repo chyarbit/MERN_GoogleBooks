@@ -1,6 +1,9 @@
+// require dependencies
 import React from "react";
 
+// functional component called Footer
 function Footer() {
+  // returning a footer
   return (
     <footer>
       <hr />
@@ -11,4 +14,5 @@ function Footer() {
   );
 }
 
+// export as Footer
 export default Footer;
