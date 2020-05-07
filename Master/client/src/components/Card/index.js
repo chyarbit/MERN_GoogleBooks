@@ -1,6 +1,10 @@
+// require dependencies
 import React from "react";
 
+// functional component called Card
+// passing in icon, title, and children
 function Card({ icon, title, children }) {
+  // returning a Bootstrap card
   return (
     <div className="card mt-4">
       <div className="card-header">

@@ -1,7 +1,9 @@
+// require axios for the API calls
 import axios from "axios";
 
 export default {
   // Gets books from the Google API
+  // q = query
   getBooks: function(q) {
     return axios.get("/api/google", { params: { q: "title:" + q } });
   },
