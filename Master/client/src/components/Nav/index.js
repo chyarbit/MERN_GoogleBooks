@@ -1,7 +1,10 @@
+// require dependencies
 import React, { Component } from "react";
+// deconstruct Link from react-router-dom
 import { Link } from "react-router-dom";
 import "./style.css";
 
+// class component called Nav which extends the Component class within the React npm
 class Nav extends Component {
   state = {
     open: false,
